@@ -35,6 +35,7 @@ class InfoController extends Controller
         $homecontent->extratitle = $request->extratitle;
         $homecontent->featuredtitle = $request->featuredtitle;
         $homecontent->featuredcontent = $request->featuredcontent;
+        $homecontent->counter = $request->counter;
         $homecontent->save();
         
         return view('admin-views.whyus.index');
@@ -75,6 +76,7 @@ class InfoController extends Controller
         $homecontent->extratitle = $request->extratitle;
          $homecontent->featuredtitle = $request->featuredtitle;
         $homecontent->featuredcontent = $request->featuredcontent;
+        $homecontent->counter = $request->counter;
         $homecontent->save();
        
 

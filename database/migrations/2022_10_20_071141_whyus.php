@@ -31,6 +31,7 @@ class Whyus extends Migration
             $table->string('extratitle');
             $table->string('featuredtitle'); 
             $table->string('featuredcontent');
+            $table->string('counter');
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
             $table->timestamps();

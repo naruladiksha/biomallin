@@ -466,6 +466,24 @@
      .new_arrival_product .owl-nav{
          z-index: -999;
      }
+     #timer {
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+    text-shadow: 0 0 20px #48C8FF;
+    }
+    
+    #timer div {
+        display: inline-block;
+        min-width: 90px;
+    }
+    
+    #timer div span {
+        color: #B1CDF1;
+        display: block;
+        font-size: .35em;
+        font-weight: 400;
+    }
     </style>
 
     <link rel="stylesheet" href="{{asset('public/assets/front-end')}}/css/owl.carousel.min.css"/>
@@ -883,6 +901,7 @@
              <div class="col-md-4 col-sm-12"> <div class="couponcode">{{$coupons->code}}</div></div>
             </div>
         </div>
+        
     </div>
     
        <!-- Products grid (featured products)-->
@@ -894,6 +913,8 @@
                    <span class="for-feature-title" style="text-align: center;">{{$homecontent->featuredtitle}}</div>
                   <span class="for-feature-title1" style="text-align: center;">{{$homecontent->featuredcontent}}</div>
                 </div>
+                <input type="hidden" value="{{$homecontent->counter}}" id="counter">
+                <div id="timer"></div>
             </div>
             <div class="col-md-12">
                 <div class="feature-product" style="padding-left:55px;padding-right: 55px;padding-top: 10px;">
@@ -1478,5 +1499,32 @@
             }
         })
     </script>
+    <script>
+    function updateTimer() {
+     var counter = document.getElementById("counter").value;  
+     future = Date.parse(counter);
+   
+    now = new Date();
+    diff = future - now;
+
+    days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    hours = Math.floor(diff / (1000 * 60 * 60));
+    mins = Math.floor(diff / (1000 * 60));
+    secs = Math.floor(diff / 1000);
+
+    d = days;
+    h = hours - days * 24;
+    m = mins - hours * 60;
+    s = secs - mins * 60;
+
+    document.getElementById("timer")
+        .innerHTML =
+        '<div>' + d + '<span>days</span></div>' +
+        '<div>' + h + '<span>hours</span></div>' +
+        '<div>' + m + '<span>minutes</span></div>' +
+        '<div>' + s + '<span>seconds</span></div>';
+}
+setInterval('updateTimer()', 1000);
+</script>
 @endpush
 

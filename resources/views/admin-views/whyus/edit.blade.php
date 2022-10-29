@@ -110,6 +110,9 @@
                        <div><label>Featured Product Content</label>
                         <input type="text" class="form-control" name="featuredcontent"  value="{{$homee->featuredcontent}}"></div>
                         
+                        <div><label>Counter date & time (ex: nov 2, 2022 11:30:00)</label>
+                        <input type="text" class="form-control" name="counter"  value="{{$homee->counter}}"></div>
+                        
                        <input type="submit" value="update">
                      </form>
                 </div>
