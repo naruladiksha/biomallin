@@ -1,0 +1,35 @@
+[12-Oct-2022 18:05:22 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mobappwhdev_lexbax'@'localhost' (using password: YES) in /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'mobappwhdev_lex...', 'lexbax@123', Array)
+#1 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'mobappwhdev_lex...', 'lexbax@123', Array)
+#2 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Conn in /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[13-Oct-2022 12:16:34 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mobappwhdev_test'@'localhost' (using password: YES) in /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'mobappwhdev_tes...', 'testing@123', Array)
+#1 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'mobappwhdev_tes...', 'testing@123', Array)
+#2 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Conn in /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[13-Oct-2022 12:22:26 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mobappwhdev_test'@'localhost' (using password: YES) in /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'mobappwhdev_tes...', 'testing@123', Array)
+#1 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'mobappwhdev_tes...', 'testing@123', Array)
+#2 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Conn in /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[13-Oct-2022 12:24:10 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mobappwhdev_test'@'localhost' (using password: YES) in /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'mobappwhdev_tes...', 'testing@123', Array)
+#1 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'mobappwhdev_tes...', 'testing@123', Array)
+#2 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Conn in /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[13-Oct-2022 12:36:59 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mobappwhdev_test'@'localhost' (using password: YES) in /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'mobappwhdev_tes...', 'testing@123', Array)
+#1 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'mobappwhdev_tes...', 'testing@123', Array)
+#2 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connectors/Conn in /home/mobappwhdev/public_html/lexbax/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
+[13-Oct-2022 09:37:07 UTC] PHP Warning:  require(/home/mobappwhdev/public_html/lexbax/vendor/autoload.php): failed to open stream: No such file or directory in /home/mobappwhdev/public_html/lexbax/index.php on line 24
+[13-Oct-2022 09:37:07 UTC] PHP Fatal error:  require(): Failed opening required '/home/mobappwhdev/public_html/lexbax/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mobappwhdev/public_html/lexbax/index.php on line 24
+[13-Oct-2022 09:37:13 UTC] PHP Warning:  require(/home/mobappwhdev/public_html/lexbax/vendor/autoload.php): failed to open stream: No such file or directory in /home/mobappwhdev/public_html/lexbax/index.php on line 24
+[13-Oct-2022 09:37:13 UTC] PHP Fatal error:  require(): Failed opening required '/home/mobappwhdev/public_html/lexbax/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/mobappwhdev/public_html/lexbax/index.php on line 24
+[20-Oct-2022 10:06:16 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\InfoController::storecontent() in /home/mobappwhdev/public_html/lexbax/app/Http/Controllers/Admin/InfoController.php on line 34
